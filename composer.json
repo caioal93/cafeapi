@@ -1,0 +1,28 @@
+{
+  "name": "caioal93/cafeapi",
+  "description": "Biblioteca API para integração com o webservice do SaaS CaféControl",
+  "keywords": [
+    "Caio Arbex Lourenço",
+    "SaaS",
+    "PHP"
+  ],
+  "homepage": "https://github.com/caioal93",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Arbex Lourenço",
+      "email": "caioarbexlourenco@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CaioAl93\\CafeApi\\": "src"
+    }
+  }
+}
